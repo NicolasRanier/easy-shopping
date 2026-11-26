@@ -102,7 +102,7 @@ button:active {
     opacity: 0.5;
 }
 
-@media screen and  (max-width: 900px ){
+@media screen and (max-width: 900px) {
     .container-left {
         width: 100%;
         height: 50%;
@@ -110,19 +110,19 @@ button:active {
         margin: 0;
         padding: 40px;
     }
-    
+
     .container-rigth {
-    display: block;
-    height: auto;
-    width: 100%;
-    position: static;
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
     }
 
     img {
         position: static;
         max-width: 90%;
     }
-    
+
     header {
         display: none;
     }
@@ -140,71 +140,132 @@ button:active {
         width: auto;
         text-align: center;
         font-size: 14px;
-       line-height: 24px;
-       }
+        line-height: 24px;
+    }
 
     button {
         margin: 0 auto;
         display: block;
-     }
+    }
 }
 
 
 @media screen and (max-width: 1299px) {
-.container-left{
-    padding-left: 95px;
-}
+    .container-left {
+        padding-left: 95px;
+    }
 }
 
 @media screen and (max-width: 1299px) {
-.container-left{
-    padding-left: 75px;
+    .container-left {
+        padding-left: 75px;
+    }
 }
-}
+
 @media screen and (max-width: 1177px) {
-.container-left{
-    padding-left: 75px;
-}
+    .container-left {
+        padding-left: 75px;
+    }
 }
 
 @media screen and (max-width: 1202px) {
-.container-rigth a{
-    display: none;
+    .container-rigth a {
+        display: none;
 
-}
+    }
 
-.container-left {
-      margin-top: 10%;
-}
+    .container-left {
+        margin-top: 10%;
+    }
 }
 
 @media screen and (max-width: 1153px) {
- .container-left {
-      margin-top: 5%;
-}
+    .container-left {
+        margin-top: 5%;
+    }
 }
 
 
 
 @media screen and (max-width: 994px) {
-   .container-left {display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 150px;
-    margin-bottom: 60px;
-  
-     }
+    .container-left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-bottom: 60px;
 
-     h1 {text-align: center}
+    }
+
+    h1 {
+        text-align: center
+    }
 
 
-        
-     
+
+
 
     .container-rigth {
         display: flex;
         flex-direction: column;
-        margin-left: 350px;
-        
+        align-items: center;
+
+        height: 700px;
+        width: 100%;
+
+
+
     }
+
+    img {
+        position: absolute;
+        top: 80px;
+        left: 200px;
+    }
+
+
 }
+
+
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-bottom: 60px;
+
+    }
+
+    h1 {
+        text-align: center
+    }
+
+
+
+
+
+    .container-rigth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 700px;
+        width: 100%;
+
+
+
+    }
+
+    img {
+        position: absolute;
+        top: 80px;
+        left: 200px;
+    }
+
+
+}
+
+
+
