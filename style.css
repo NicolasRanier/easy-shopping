@@ -148,3 +148,63 @@ button:active {
         display: block;
      }
 }
+
+
+@media screen and (max-width: 1299px) {
+.container-left{
+    padding-left: 95px;
+}
+}
+
+@media screen and (max-width: 1299px) {
+.container-left{
+    padding-left: 75px;
+}
+}
+@media screen and (max-width: 1177px) {
+.container-left{
+    padding-left: 75px;
+}
+}
+
+@media screen and (max-width: 1202px) {
+.container-rigth a{
+    display: none;
+
+}
+
+.container-left {
+      margin-top: 10%;
+}
+}
+
+@media screen and (max-width: 1153px) {
+ .container-left {
+      margin-top: 5%;
+}
+}
+
+
+
+@media screen and (max-width: 994px) {
+   .container-left {display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 60px;
+  
+     }
+
+     h1 {text-align: center}
+
+
+        
+     
+
+    .container-rigth {
+        display: flex;
+        flex-direction: column;
+        margin-left: 350px;
+        
+    }
+}
