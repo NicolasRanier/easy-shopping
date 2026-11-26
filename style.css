@@ -229,43 +229,54 @@ button:active {
 
 
 @media screen and (max-width: 900px) {
-    .container-left {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 150px;
-        margin-bottom: 60px;
 
-    }
+ 
 
-    h1 {
-        text-align: center
-    }
+img { position: relative;}
 
 
+h1 {
+    width: 300px;
+    font-size: 36px;
+    color: #5D5D7D;
+text-align: center;
+font-family: Oswald;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 52px; /* 144.444% */
+    
+}
+p {
+    width: 300px;
+    font-size: 20px
+}
+buton {width: 269px;
+height: 62px;}
 
-
-
-    .container-rigth {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        height: 700px;
-        width: 100%;
-
-
-
-    }
-
-    img {
-        position: absolute;
-        top: 80px;
-        left: 200px;
-    }
-
-
+.container-left {
+    width: 100%;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+  .container-rigth {
+    width: 100%;
+    padding: 45px 0;
+    height: auto;
 }
 
-
-
+.container-rigth img {
+    position: static;
+    display: block;
+    width: 75%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+}
